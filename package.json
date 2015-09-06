@@ -1,0 +1,28 @@
+{
+  "name": "kerplunk-bootstrap",
+  "displayName": "Twitter Bootstrap",
+  "description": "JS and CSS magic",
+  "version": "0.0.1",
+  "keywords": [
+    "kerplunk-plugin",
+    "kp:Admin"
+  ],
+  "engines": {
+    "node": ">=0.10"
+  },
+  "main": "./lib/index.js",
+  "dependencies": {
+    "react": "^0.13.3",
+    "react-bootstrap": "0.24.2"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.9.1",
+    "glut": "0.0.1",
+    "glut-coffee-amdify": "0.0.0",
+    "gulp": "^3.8.8",
+    "gulp-coffee": "^2.3.1"
+  },
+  "scripts": {
+    "prepublish": "rm -rf ./lib ./public && gulp"
+  }
+}
