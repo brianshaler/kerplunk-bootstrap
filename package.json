@@ -2,7 +2,7 @@
   "name": "kerplunk-bootstrap",
   "displayName": "Twitter Bootstrap",
   "description": "JS and CSS magic",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [
     "kerplunk-plugin",
     "kp:Admin"
