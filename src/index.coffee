@@ -1,9 +1,6 @@
 module.exports = (System) ->
   globals:
     public:
-      css:
-        '*':
-          'kerplunk-bootstrap': 'kerplunk-bootstrap/css/bootstrap.css'
       requirejs:
         shim:
           bootstrap: ['jquery']
